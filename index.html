@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options Page</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.options a {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background: linear-gradient(to right, #4CAF50, #45a049);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.options a:hover {
+  background: linear-gradient(to right, #45a049, #4CAF50);
+}
+
+#selected-option {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Select a Destination</h1>
+    <div class="options">
+        <a href="https://www.google.com/maps/dir//8P2P%2BCCJ+Manipal+Hospital,+Udyavara,+Udupi,+Karnataka+574118/@13.327062,74.721264,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbcbaf8d24c1903:0x5361f50f774340b9!2m2!1d74.7360302!2d13.301099?hl=en&entry=ttu">Udupi</a>     
+
+      <a href="https://www.google.com/maps/dir//The+Bangalore+Hospital,+202,+Rashtriya+Vidyalaya+Rd,+2nd+Block,+Basavanagudi,+Bengaluru,+Karnataka+560004/@12.9671725,77.5208348,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae158e750221f1:0xf18e3d80c3d298aa!2m2!1d77.5804336!2d12.9377405?hl=en&entry=ttu">Bangalore</a>
+      <a href="https://www.google.com/maps/dir//F286%2B28G+GOVERNMENT+HOSPITAL+DHARWAD,+Maratha+Colony,+Dharwad,+Karnataka+580008/@15.4517414,74.9739151,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bb8cd79e7ec602b:0xf0f4805f97eb4e62!2m2!1d75.0108221!2d15.4650502?hl=en&entry=ttu">Dharwad</a>
+      <a href="https://www.google.com/maps/dir//JSS+Hospital+Mysore,+Mahatma+Gandhi+Road,+Fort+Mohalla,+Mysuru,+Karnataka+570004/@12.3226143,76.6112249,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3baf71b30c0a2ae3:0x2981a75406bdcce9!2m2!1d76.655683!2d12.2955614?hl=en&entry=ttu">Mysore</a>
+      <a href="https://www.google.com/maps/dir//no.+43,+Yash+Hospital+critical+care+centre,+%23+4924%2F3,+33,+Mahadwar+Rd,+Kapileswar+Colony,+Shahapur,+Belagavi,+Karnataka+590001/@15.8569419,74.4709075,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbf66be19c69953:0x4641eeb5f2936a20!2m2!1d74.5182641!2d15.8524144?hl=en&entry=ttu">Belagavi</a>
+      <a href="https://www.google.com/maps/dir//Mandya+Institute+of+Medical+Sciences+Hospital+Mandya,+MIMS,+Tamilians+Colony,+Nehru+Nagar,+Mandya,+Karnataka+571401/@12.5201645,76.8797048,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bafa0df2e63d21f:0xe9b5304b1e322d33!2m2!1d76.9004938!2d12.5254829?hl=en&entry=ttu">Mandya</a>
+      <a href="https://www.google.com/maps/dir//Sahyadri+multispeciality+hospital,+Race+Course+Rd,+Sandal+kote,+Rangoli+Halla,+Hassan,+Karnataka+573201/@13.0090126,76.0918437,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba5490c7560ecf5:0x258fd370203f12a2!2m2!1d76.1026749!2d13.0093805?hl=en&entry=ttu">Hassan</a>
+      <a href="https://www.google.com/maps/dir//Aashirvad+Multispeciality+Hospital+Bidar,+Nehru+Stadium+Rd,+opposite+Sai+School,+Bank+colony,+Bidar,+Karnataka+585401/@17.9078263,77.4920434,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcec7203092e523:0x70d04f86412ece5f!2m2!1d77.5154263!2d17.9164454?hl=en&entry=ttu">Bidar</a>
+      <a href="https://www.google.com/maps/dir//Sahyadri+Narayana+Multispeciality+Hospital,+Shimoga,+NT+Road,+Harakere,+NT+Rd,+Harakere,+Shivamogga,+Karnataka+577202/@13.9236843,75.5177311,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbba8f68a191711:0x1e3cb4858d1ceb3b!2m2!1d75.5583661!2d13.9007265?hl=en&entry=ttu">Shimoga</a>
+      <a href="https://www.google.com/maps/dir//Chitradurga+Multispeciality+Hospital,+Turuvanur+Rd,+Bank+Colony,+Chitradurga,+Pillekerenahalli,+Karnataka+577502/@14.2280847,76.397795,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bba751d7a2c22a7:0xc141283ce2177804!2m2!1d76.4129611!2d14.2376838?hl=en&entry=ttu">Chitradurga</a>
+      <a href="https://www.google.com/maps/dir//SHRI+ANNADANESHWAR+HOSPITAL+24X7+EMERGENCY+CARE,+opposite+GOVT+HOSPITAL,+Gajendragad,+Karnataka+582114/@15.8047383,74.1746654,8z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bb86948a5763911:0x671c90bcd8c7d21e!2m2!1d75.960857!2d15.7342318?hl=en&entry=ttu">Uttara Kannada</a>
+    </div>
+  </div>
+</body>
+</html>
